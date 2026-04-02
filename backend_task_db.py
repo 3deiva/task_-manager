@@ -3,7 +3,7 @@ import sqlite3
 
 # connect to database (creates file if not exists)
 conn = sqlite3.connect("tasks.db")
-cursor = conn.cursor()
+
 
 # create table
 cursor.execute('''
