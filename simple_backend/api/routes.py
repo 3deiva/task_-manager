@@ -68,7 +68,6 @@ def list_tasks():
             "title":       t[1],
             "description": t[2],
             "status":      t[3],
-            "created_at":  t[4],
         }
         for t in tasks
     ]), 200
