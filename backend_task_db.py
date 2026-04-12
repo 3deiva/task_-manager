@@ -1,9 +1,3 @@
-
-
-# connect to database (creates file if not exists)
-conn = sqlite3.connect("tasks.db")
-
-
 # create table
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS tasks (
